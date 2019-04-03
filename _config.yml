@@ -1,0 +1,22 @@
+# Site settings
+title: mikrotik
+subtitle: "Kumpulan Mikrotik Monitoring"
+header-img: img/home-bg.jpg
+image: img/home-bg.jpg
+copyright_name: Yandi Novriandi
+description: "Kumpulan Mikrotik Monitor Live"
+url: "http://mikrotik.github.io"
+author: Yandi Novriandi
+twitter_username: NovriandiYandi
+github_username:  yandinov
+facebook_username:  yandinovriyandi
+email_username:  yandinovriandi@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
